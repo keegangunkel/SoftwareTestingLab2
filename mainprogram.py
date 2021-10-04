@@ -1,4 +1,4 @@
-import Cylinder, Cube, Cuboid, Triangle, Trapezoid, Sphere,EquilateralTriangle, Cone
+import cylinder, cube, cuboid, triangle, trapezoid, sphere,equilateralTriangle, cone
 
 def main():
 
@@ -7,21 +7,21 @@ def main():
         print("1. Sphere \n2. Cylinder\n3. Cone\n4. Cube\n5. Triangle\n6. Trapezoid\n7.Cuboid\n8. Equilateral triangle\n0. Quit")
         selection = int(input("Please enter your selection: "))
         if selection == 1:
-            Sphere.main()
+            sphere.main()
         if selection == 2:
-            Cylinder.main()
+            cylinder.main()
         if selection == 3:
-            Cone.main()
+            cone.main()
         if selection == 4:
-            Cube.main()
+            cube.main()
         if selection == 5:
-            Triangle.main()
+            triangle.main()
         if selection == 6:
-            Trapezoid.main()
+            trapezoid.main()
         if selection == 7:
-            Cuboid.main()
+            cuboid.main()
         if selection == 8:
-            EquilateralTriangle.main()
+            equilateralTriangle.main()
         if selection == 0:
             break
 
