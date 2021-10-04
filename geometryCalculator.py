@@ -1,6 +1,6 @@
 import cylinder, cube, cuboid, triangle, trapezoid, sphere,equilateralTriangle, cone
 
-def pick(selection):
+def main():
     while True:
         print("\nWelcome to my Geometry Calculator")
         print("1. Sphere \n2. Cylinder\n3. Cone\n4. Cube\n5. Triangle\n6. Trapezoid\n7. Cuboid\n8. Equilateral triangle\n0. Quit")
@@ -23,6 +23,5 @@ def pick(selection):
             equilateralTriangle.main()
         if selection == 0:
             break
-    return pick
 
 
