@@ -6,6 +6,14 @@
 #
 ####################################################
 import math
+
+def surfaceArea():
+    pass
+
+def volume(length,width, height):
+     volume = length*width*height
+     return volume
+
 def main():
     print("---------------------------------------------------------------")
     print("PYTHON PROGRAM TO FIND THE VOLUME AND SURFACE AREA OF A CUBOID")

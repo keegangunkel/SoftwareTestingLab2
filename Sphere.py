@@ -6,6 +6,14 @@
 #
 ####################################################
 import math
+
+def surfaceArea():
+    pass
+
+def volume(radius):
+    volume = 4/3 *math.pi * radius**3
+    return volume
+
 def main():
     print("----------------------------------------------------------------")
     print("PYTHON PROGRAM TO FIND THE VOLUME AND SURFACE AREA OF A SHPHERE")

@@ -6,6 +6,14 @@
 #
 ####################################################
 import math
+
+def surfaceArea():
+    pass
+
+def volume(radius, height):
+    volume = math.pi * radius**2 * height/3
+    return volume
+
 def main():
     print("-------------------------------------------------------------")
     print("PYTHON PROGRAM TO FIND THE VOLUME AND SURFACE AREA OF A CONE")
@@ -20,10 +28,10 @@ def main():
     lateralSurfaceArea = math.pi * radius * math.sqrt (height**2 + radius**2)
     sideSlantLength = math.sqrt (radius**2 + height**2) 
     # Printing answers and rounding them
-    print("Length of side (slant) of the cone = ",round(sideSlantLength, 2))
-    print("The surface Area of the cone = ",round(surfaceArea, 2))
-    print("The volume of the cone = ",round(volume, 2))
-    print("Lateral surface area of the cube = ",round(lateralSurfaceArea, 2))
+    print("Length of side (slant) of the cone = ", sideSlantLength)
+    print("The surface Area of the cone = ", surfaceArea)
+    print("The volume of the cone = ", volume)
+    print("Lateral surface area of the cube = ", lateralSurfaceArea)
 
     if __name__ == '__main__':
         main()

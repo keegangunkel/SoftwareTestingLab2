@@ -6,6 +6,14 @@
 #
 ####################################################
 import math
+def surfaceArea():
+    pass
+
+def volume(lengthOfCube):
+     volume = lengthOfCube**3
+     return volume
+
+
 def main():
     print("-------------------------------------------------------------")
     print("PYTHON PROGRAM TO FIND THE VOLUME AND SURFACE AREA OF A CUBE")
@@ -26,4 +34,6 @@ def main():
     
     if __name__ == '__main__':
         main()
-
+def volume(lengthOfCube):
+     volume = lengthOfCube**3
+     return volume

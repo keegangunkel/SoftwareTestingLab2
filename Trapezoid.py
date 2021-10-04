@@ -6,6 +6,15 @@
 #
 ####################################################
 import math
+
+def median():
+    pass
+
+def area(base1, base2, height):
+    median = (base1 + base2) / 2
+    area = (median) * height
+    return area
+
 def main():
     print("-------------------------------------------------------------")
     print("PYTHON PROGRAM TO FIND THE AREA OF A TRAPEZOID")
@@ -16,8 +25,8 @@ def main():
     median = (base1 + base2) / 2
     area = (median) * height
     print()
-    print(" Area of a Trapezoid = ", round(area,  2))
-    print(" Median of a trapezoid = ", round(median, 2))    
+    print(" Area of a Trapezoid = ", area)
+    print(" Median of a trapezoid = ", median)    
     print("--------------------------------------------------------------")
 
     if __name__ == '__main__':

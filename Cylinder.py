@@ -6,6 +6,15 @@
 #
 ####################################################
 import math
+
+def surfaceArea():
+    pass
+
+def volume(rad, hi):
+    volume = math.pi * rad * rad * hi
+    return volume
+
+
 def main():
     print("-----------------------------------------------------------------")
     print("PYTHON PROGRAM TO FIND THE VOLUME AND SURFACE AREA OF A CYLINDER")
