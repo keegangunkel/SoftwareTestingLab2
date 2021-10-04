@@ -15,6 +15,7 @@ class cylinderTest(unittest.TestCase):
     #test that fails
     def test_volume3(self):
         assert(cylinder.volume(0,77777) == 0)
+        assert(cylinder.surfaceArea(0, 77777) == 0)
 
 
 if __name__ == '__main__':
